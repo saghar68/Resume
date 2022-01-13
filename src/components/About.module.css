@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.imageBox {
+    width: 500px;
+    margin: 50px auto;
+    position: relative;
+    right: 120px;
+}
+
+.imageBox .imgBg {
+   width: 700px;
+}
+
+.imageBox .imageText {
+    position: absolute;
+    top: 100px;
+    right: -1px;
+    font-size: 20px;
+
+}
+
+h1 {
+    color:#ffff;
+}
+
+h1:hover {
+    color: plum;
+}
+
+
+.imageText {
+  color: rgb(191, 197, 197);
+  text-shadow: 2px 1px rgb(155, 153, 153);
+}
+
+.imageText img {
+    width: 90px;
+    position: absolute;
+    top: -93px;
+    left: 90px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 2px rgb(49, 49, 49);
+}
+
+ h3:hover { 
+    color: rgb(110, 112, 112);
+}
+
+ .logoBox {
+ position: absolute;
+ top: 100px;
+ left: -100px;
+ width: 40px;
+}
+
+@media screen and (max-width:1200px) {
+   .imageBox .imgBg {
+        width: 650px; 
+    }
+    
+    .imageBox .imageText {
+        position: absolute;
+        top: 100px;
+        right: -20px;
+        font-size: 20px;
+    
+    }
+}

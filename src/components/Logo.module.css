@@ -1,0 +1,60 @@
+.container img {
+    position: relative;
+    top: -275px;
+    left: 650px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 150px;
+
+}
+
+ .container .btn {
+    top: -250px;
+    right: -600px;
+     
+ }
+
+ .btn {
+    position: relative;
+    top: 80px;
+    background: purple;
+    background-image: linear-gradient(to right,purple,orange);
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-transform: uppercase;
+  }
+
+  .btn:hover,
+  .btn:focus {
+    cursor: pointer;  
+    background-image: linear-gradient(to right,orange,purple);
+
+  }
+
+  @media screen and (max-width:1200px) {
+      .container img {
+            position: relative;
+            top: -245px;
+            display: flex;
+            justify-content:space-evenly;
+            left: 205px;
+            align-items: center;
+            width: 150px;
+        
+        
+      }
+
+
+      .container .btn {
+        top: -230px;
+        right: -160px;
+         
+     }          
+  }
