@@ -5,7 +5,10 @@ import styles from "../components/Card.module.css";
 
 const Card = () => {
     return (
-        <div></div>
+        <div className={styles.card}>
+        
+       <p>everything about me </p>
+        </div>
     );
 
 }
