@@ -19,6 +19,7 @@ class App extends Component {
         <About />
         <Logo />
         <Card />
+       
       </div>
       </styleRoot>
     )
